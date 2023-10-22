@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header::before{
+    content: " ";
+    width: 100%;
+    height: 90%;
+    background-image: url('https://www.holidayclubresorts.com/globalassets/_sweden/mat-och-dryck/eatery/eatery_1050x630.jpg?width=800&quality=80');
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    box-shadow: 0 15px 30px black;
+    filter: brightness(70%);
+    z-index: -1;
+}
+
+header{
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-bar{
+    /* display: inline-block; */
+    width: 100vw;
+    padding: 20px 50px 10px 20px;
+    background-color: rgba(0, 0, 0, 0.267);
+   
+}
+
+.search{
+    margin-left: 100px;
+}
+.search input{
+    width: 300px;
+    background-color: rgba(124, 118, 118, 0.329);
+    border: none;
+}
+
+.search button{
+    background-color: rgba(96, 182, 122, 0.363);
+    font-weight: 600;
+    letter-spacing: .5px;
+
+}
+
+.links{
+    margin-left: auto;
+    margin-right: 100px;
+    display: inline-block;
+}
+.links a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 1.5rem;
+    /* transition: all ease-in-out .5s; */
+}
+
+.links a:hover{
+    color: rgb(190, 173, 15);
+}
+
+/* .links a::after{
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color:rgb(190, 173, 15);
+    transform: translate(-90%,-10%);
+    transition: all ease-in-out .5s;
+
+} */
+
+.heading{
+    top: 30%;
+    display: block;
+    position: absolute;
+    left: 30%;
+}
+
+#main-heading{
+    font-size: 6.7rem;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-stretch: expanded;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#head-text{
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-stretch: expanded;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+main{
+    display: block;
+    position: relative;
+}
+
+#head2{
+    display: block;
+    position: relative;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    margin: 10px 0 40px 0 ;
+}
+
+.para{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    color: grey;
+}
+
+.state{
+    width: 350px;
+    height: 60px;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.555);
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.states-direction{
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 20px;
+}
+
+.state a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-icon{
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+/* Country */
+
+.country-container{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.country-head{
+    display: flex;   
+    margin-left: 12em;
+}
+
+.country-img{
+    height: 35px;
+    width: 60px;
+}
+.country{
+    position: relative;
+    width: 350px;
+    height: 70px;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.555);
+    margin: 20px;
+    padding: 15px 30px;
+    flex-grow: 0;
+    flex-shrink: 0;  
+}
+
+.inner-country{
+    margin-top: 2em;
+}
+
+.country-direction{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.country a{
+    text-decoration: none;
+}
+
+.head5 h5{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-style: none;
+    font-weight: 400;
+    /* padding-left: 4px; */
+}
+
+.country .head5 h5{
+    margin-left: 8px;
+}
+
+.text-icon-country{
+    justify-content: space-between;
+    align-items: center;
+}
+
